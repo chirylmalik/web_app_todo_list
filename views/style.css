@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+input, button {
+    padding: 8px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #eee;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.todo-checkbox {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.todo-text {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.todo-actions {
+    display: flex;
+    gap: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    background: #3498db;
+    color: white;
+    border-radius: 3px;
+}
+
+button:hover {
+    background: #2980b9;
+}
+
+button.del-btn {
+    background: #e74c3c;
+}
+
+button.del-btn:hover {
+    background: #c0392b;
+}
